@@ -331,8 +331,8 @@
   </div>
 </div>
 
-<script src="data/ATP_QUIZES1_explanations.js"></script>
-<script src="data/Quizzes_explanations.js"></script>
+<script src="ATP_QUIZES1_explanations.js"></script>
+<script src="Quizzes_explanations.js"></script>
 
 <script>
 const quizSources = {
@@ -412,7 +412,7 @@ function renderQuestion() {
   const imgPaths = getImagePaths(q);
   imgPaths.forEach(src => {
     const img = document.createElement('img');
-    img.src = 'data/' + src;
+    img.src = src.replace(/^images1\//, '');
     img.alt = 'Question image';
     img.style.maxHeight = '220px';
     imgContainer.appendChild(img);
