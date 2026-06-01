@@ -1030,7 +1030,7 @@ const QUIZ_DATA_2 = {
           "letter": "b",
           "text": "None of the mentioned factors",
           "is_correct": false,
-          "explanation": "Correct."
+          "explanation": "Ease of implementation does favor recursion for some problems (e.g., tree traversals, divide-and-conquer). Correct: Ease of implementation."
         },
         {
           "letter": "c",
@@ -1042,7 +1042,7 @@ const QUIZ_DATA_2 = {
           "letter": "d",
           "text": "Ease of implementation",
           "is_correct": true,
-          "explanation": "While some problems are simpler recursively, speed and memory generally favor iteration, so ease alone is not a universal reason. Correct: Ease of implementation."
+          "explanation": "Correct. Many problems (tree traversals, backtracking, divide-and-conquer) are more natural and simpler to implement recursively, even though recursion is generally slower and uses more memory."
         },
         {
           "letter": "e",
@@ -1296,35 +1296,35 @@ const QUIZ_DATA_2 = {
         {
           "letter": "a",
           "text": "It is a recursive algorithm so it must be implemented using a recursive function.",
-          "is_correct": true,
-          "explanation": "Divide-and-conquer can be written iteratively with an explicit stack. Recursion is common but not mandatory. Correct: It is a recursive algorithm so it must be implemented using a recursive function.."
+          "is_correct": false,
+          "explanation": "Divide-and-conquer can be written iteratively with an explicit stack. Recursion is common but not mandatory. Correct: It is a recursive algorithm and can be implemented using an iterative or recursive function."
         },
         {
           "letter": "b",
           "text": "None of the other answers is true.",
           "is_correct": false,
-          "explanation": "One answer is correct: it is recursive and can be implemented either way. Correct: It is a recursive algorithm so it must be implemented using a recursive function.."
+          "explanation": "One answer is correct: it is recursive and can be implemented either way. Correct: It is a recursive algorithm and can be implemented using an iterative or recursive function."
         },
         {
           "letter": "c",
           "text": "It is a recursive algorithm and can be implemented using an iterative or recursive function.",
-          "is_correct": false,
-          "explanation": "Correct."
+          "is_correct": true,
+          "explanation": "Correct. Divide-and-conquer is fundamentally recursive in nature, but it can be written either iteratively (with an explicit stack) or recursively."
         },
         {
           "letter": "d",
           "text": "It is an iterative algorithm and can be implemented using an iterative or a recursive function.",
           "is_correct": false,
-          "explanation": "This imposes an unnecessary implementation constraint. Correct: It is a recursive algorithm so it must be implemented using a recursive function.."
+          "explanation": "This mischaracterizes the method. Divide-and-conquer is recursive in nature, not iterative. Correct: It is a recursive algorithm and can be implemented using an iterative or recursive function."
         },
         {
           "letter": "e",
           "text": "it is an iterative algorithm and must be implemented using an iterative function.",
           "is_correct": false,
-          "explanation": "Divide-and-conquer is fundamentally recursive in nature. Saying it must be iterative is wrong. Correct: It is a recursive algorithm so it must be implemented using a recursive function.."
+          "explanation": "Divide-and-conquer is fundamentally recursive in nature. Saying it must be iterative is wrong. Correct: It is a recursive algorithm and can be implemented using an iterative or recursive function."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "images": [],
       "status": "Incorrect"
     },

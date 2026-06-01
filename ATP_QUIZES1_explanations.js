@@ -892,34 +892,34 @@ const QUIZ_DATA_1 = {
           "letter": "a",
           "text": "Speed of execution",
           "is_correct": false,
-          "explanation": "Recursion is usually slower than iteration due to function call overhead. Correct: None of the mentioned factors."
+          "explanation": "Recursion is usually slower than iteration due to function call overhead. Correct: Ease of implementation."
         },
         {
           "letter": "b",
           "text": "Memory consumption",
           "is_correct": false,
-          "explanation": "Recursion uses more memory because each call adds a stack frame. Iteration reuses fixed variables. Correct: None of the mentioned factors."
+          "explanation": "Recursion uses more memory because each call adds a stack frame. Iteration reuses fixed variables. Correct: Ease of implementation."
         },
         {
           "letter": "c",
           "text": "None of the mentioned factors",
-          "is_correct": true,
-          "explanation": "Correct."
+          "is_correct": false,
+          "explanation": "Ease of implementation does favor recursion for some problems (e.g., tree traversals, divide-and-conquer). Correct: Ease of implementation."
         },
         {
           "letter": "d",
           "text": "Ease of implementation",
-          "is_correct": false,
-          "explanation": "While some problems are simpler recursively, speed and memory generally favor iteration, so ease alone is not a universal reason. Correct: None of the mentioned factors."
+          "is_correct": true,
+          "explanation": "Correct. Many problems (tree traversals, backtracking, divide-and-conquer) are more natural and simpler to implement recursively, even though recursion is generally slower and uses more memory."
         },
         {
           "letter": "e",
           "text": "All mentioned factors",
           "is_correct": false,
-          "explanation": "Speed and memory usually disfavor recursion, so not all factors favor it. Correct: None of the mentioned factors."
+          "explanation": "Speed and memory usually disfavor recursion, so not all factors favor it. Only ease of implementation may favor recursion in some cases. Correct: Ease of implementation."
         }
       ],
-      "correct_answer": "c"
+      "correct_answer": "d"
     },
     {
       "question_number": 26,
@@ -1552,34 +1552,34 @@ const QUIZ_DATA_1 = {
           "letter": "a",
           "text": "2, 4",
           "is_correct": false,
-          "explanation": "Lower-order terms and their coefficients become negligible as n grows, so they are commonly ignored. Correct: none."
+          "explanation": "Lower-order terms and their coefficients become negligible as n grows, so they are commonly ignored. Correct: 3, 5."
         },
         {
           "letter": "b",
           "text": "1, 2, 6",
           "is_correct": false,
-          "explanation": "The highest-ranking term dominates, and negative terms cancel out, so some parts are indeed ignorable. Correct: none."
+          "explanation": "The highest-ranking term dominates growth, but the question asks what parts can be ignored. Correct: 3, 5."
         },
         {
           "letter": "c",
           "text": "3, 5",
-          "is_correct": false,
-          "explanation": "The coefficient of the highest term and all lower-order terms are ignored in Big-O, so this is partially correct but not complete. Correct: none."
+          "is_correct": true,
+          "explanation": "Correct. When comparing algorithms using Big-O notation, we ignore the coefficient of the highest-ranking term (3) and all lower-order terms (5 = all but the highest)."
         },
         {
           "letter": "d",
           "text": "1",
           "is_correct": false,
-          "explanation": "Only the highest-ranking term matters in Big-O, but lower-order terms and coefficients are also ignored. Correct: none."
+          "explanation": "Only the highest-ranking term matters for the order of growth, but the coefficient of that term and all lower-order terms are also ignored. Correct: 3, 5."
         },
         {
           "letter": "e",
           "text": "none",
-          "is_correct": true,
-          "explanation": "Correct."
+          "is_correct": false,
+          "explanation": "Parts of the running time computation can indeed be ignored when comparing algorithms asymptotically. Correct: 3, 5."
         }
       ],
-      "correct_answer": "e"
+      "correct_answer": "c"
     },
     {
       "question_number": 44,
