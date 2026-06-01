@@ -2610,6 +2610,7 @@ const QUIZ_DATA_1 = {
     },
     {
       "question_text": "Consider the graph G=(V, E) where V={1,2,3,4,5,6,7,8} and E={(1,2), (1,4), (2,3), (2,4), (3,4), (4,5), (4,6), (4,8), (6,7), (7,8)}. If 7 is the initial vertex, which of the following is the correct breadth first traversing order:",
+      "image": "5.png",
       "answers": [
         {
           "letter": "a",
@@ -2721,6 +2722,7 @@ const QUIZ_DATA_1 = {
     },
     {
       "question_text": "Consider the graph G=(V, E, W) where V={1,2,3,4,5,6,7,8,9,10}, E={(1,2), (1,4), (1,5), (2,3), (2,5), (3,5), (4,7), (5,6), (5,8), (6,10), (7,8), (7,9), (8,9), (8,10)} and W={1,2,3,4,5,6,7,8,9,10,11,12,13,14}. The root of the minimum spanning tree built using Kruskal's algorithm is:",
+      "image": "7.png",
       "answers": [
         {
           "letter": "a",
