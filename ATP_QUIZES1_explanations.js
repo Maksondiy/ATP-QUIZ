@@ -1,6 +1,6 @@
 const QUIZ_DATA_1 = {
   "quiz_title": "ATP_QUIZES1",
-  "total_questions": 90,
+  "total_questions": 86,
   "questions": [
     {
       "question_number": 1,
@@ -1336,25 +1336,25 @@ const QUIZ_DATA_1 = {
           "letter": "a",
           "text": "2, 4, 6, 7",
           "is_correct": false,
-          "explanation": "Algorithmic running time is determined by operations, input size, and data characteristics. Correct: 1, 3, 5, 8 2, 5, 7, 8."
+          "explanation": "Algorithmic running time is determined by operations, input size, and data characteristics. Correct: 1, 3, 5, 8."
         },
         {
           "letter": "b",
           "text": "All of them",
           "is_correct": false,
-          "explanation": "Not all items affect algorithmic running time; many are irrelevant external conditions. Correct: 1, 3, 5, 8 2, 5, 7, 8."
+          "explanation": "Not all items affect algorithmic running time; many are irrelevant external conditions. Correct: 1, 3, 5, 8."
         },
         {
           "letter": "c",
-          "text": "1, 3, 5, 8 2, 5, 7, 8",
+          "text": "1, 3, 5, 8",
           "is_correct": true,
-          "explanation": "Algorithmic running time is determined by operations, input size, and data characteristics. Correct: 1, 3, 5, 8 2, 5, 7, 8."
+          "explanation": "Algorithmic running time is determined by operations, input size, and data characteristics. Correct: 1, 3, 5, 8."
         },
         {
           "letter": "d",
           "text": "1, 3, 4, 5, 8",
           "is_correct": false,
-          "explanation": "Algorithmic running time is determined by operations, input size, and data characteristics. Correct: 1, 3, 5, 8 2, 5, 7, 8."
+          "explanation": "Algorithmic running time is determined by operations, input size, and data characteristics. Correct: 1, 3, 5, 8."
         }
       ],
       "correct_answer": "c"
@@ -1614,7 +1614,7 @@ const QUIZ_DATA_1 = {
     },
     {
       "question_number": 45,
-      "question_text": "Complexity indicators are used to: Alegeți o opțiune:",
+      "question_text": "Complexity indicators are used to:",
       "answers": [
         {
           "letter": "a",
@@ -1650,45 +1650,8 @@ const QUIZ_DATA_1 = {
       "correct_answer": "c"
     },
     {
-      "question_number": 46,
-      "question_text": "Which of the following criteria may favor an recursive implementation over an iterative implementation for the same algorithm Alegeți o opțiune:",
-      "answers": [
-        {
-          "letter": "a",
-          "text": "Speed of execution",
-          "is_correct": false,
-          "explanation": "Recursion is usually slower than iteration due to function call overhead. Correct: Ease of implementation."
-        },
-        {
-          "letter": "b",
-          "text": "None of the mentioned factors",
-          "is_correct": false,
-          "explanation": "Correct."
-        },
-        {
-          "letter": "c",
-          "text": "All mentioned factors",
-          "is_correct": false,
-          "explanation": "Speed and memory usually disfavor recursion, so not all factors favor it. Correct: Ease of implementation."
-        },
-        {
-          "letter": "d",
-          "text": "Memory consumption",
-          "is_correct": false,
-          "explanation": "Recursion uses more memory because each call adds a stack frame. Iteration reuses fixed variables. Correct: Ease of implementation."
-        },
-        {
-          "letter": "e",
-          "text": "Ease of implementation",
-          "is_correct": true,
-          "explanation": "While some problems are simpler recursively, speed and memory generally favor iteration, so ease alone is not a universal reason. Correct: Ease of implementation."
-        }
-      ],
-      "correct_answer": "e"
-    },
-    {
       "question_number": 47,
-      "question_text": "Relative key must be: Alegeți o opțiune:",
+      "question_text": "Relative key must be:",
       "answers": [
         {
           "letter": "a",
@@ -1724,45 +1687,8 @@ const QUIZ_DATA_1 = {
       "correct_answer": "d"
     },
     {
-      "question_number": 48,
-      "question_text": "Which of the following is not a characteristic of problems that can be solved using divide et impera method? Alegeți o opțiune:",
-      "answers": [
-        {
-          "letter": "a",
-          "text": "solutions of the \"smaller\" problems are combined to give the solution of the original problem",
-          "is_correct": false,
-          "explanation": "That is actually a valid D&C characteristic. Correct: they are always divide into 2 \"smaller\" problems."
-        },
-        {
-          "letter": "b",
-          "text": "may be divided into problems of the same type but with lower complexity, or primitive problems",
-          "is_correct": false,
-          "explanation": "That is actually a valid D&C characteristic. Correct: they are always divide into 2 \"smaller\" problems."
-        },
-        {
-          "letter": "c",
-          "text": "they are always divide into 2 \"smaller\" problems",
-          "is_correct": true,
-          "explanation": "D&C can split into any number of subproblems, not strictly two. Examples: 3-way merge sort, Strassen's multiplication. Correct: they are always divide into 2 \"smaller\" problems."
-        },
-        {
-          "letter": "d",
-          "text": "the \"smaller\" problems may overlap",
-          "is_correct": false,
-          "explanation": "That is actually a valid D&C characteristic. Correct: they are always divide into 2 \"smaller\" problems."
-        },
-        {
-          "letter": "e",
-          "text": "the decomposition process ends after a finite number of steps, with trivial problems.",
-          "is_correct": false,
-          "explanation": "That is actually a valid D&C characteristic. Correct: they are always divide into 2 \"smaller\" problems."
-        }
-      ],
-      "correct_answer": "c"
-    },
-    {
       "question_number": 49,
-      "question_text": "In C the end of a file is detected Alegeți o opțiune:",
+      "question_text": "In C the end of a file is detected",
       "answers": [
         {
           "letter": "a",
@@ -1799,7 +1725,7 @@ const QUIZ_DATA_1 = {
     },
     {
       "question_number": 50,
-      "question_text": "An indexed file Alegeți o opțiune:",
+      "question_text": "An indexed file",
       "answers": [
         {
           "letter": "a",
@@ -1836,7 +1762,7 @@ const QUIZ_DATA_1 = {
     },
     {
       "question_number": 51,
-      "question_text": "General processing flow for working with a data file does not include: Alegeți o opțiune:",
+      "question_text": "General processing flow for working with a data file does not include:",
       "answers": [
         {
           "letter": "a",
@@ -1873,7 +1799,7 @@ const QUIZ_DATA_1 = {
     },
     {
       "question_number": 52,
-      "question_text": "Which of the following is not a standard text file associated with an external device in C: Alegeți o opțiune:",
+      "question_text": "Which of the following is not a standard text file associated with an external device in C:",
       "answers": [
         {
           "letter": "a",
@@ -1910,7 +1836,7 @@ const QUIZ_DATA_1 = {
     },
     {
       "question_number": 53,
-      "question_text": "Which of the following factors do not affect the choices made when choosing an implementation to solve a problem: Alegeți o opțiune:",
+      "question_text": "Which of the following factors do not affect the choices made when choosing an implementation to solve a problem:",
       "answers": [
         {
           "letter": "a",
@@ -1947,7 +1873,7 @@ const QUIZ_DATA_1 = {
     },
     {
       "question_number": 54,
-      "question_text": "Big omega notation indicates: Alegeți o opțiune:",
+      "question_text": "Big omega notation indicates:",
       "answers": [
         {
           "letter": "a",
@@ -1984,7 +1910,7 @@ const QUIZ_DATA_1 = {
     },
     {
       "question_number": 55,
-      "question_text": "Which of the following is not true regarding complexity indicators? Alegeți o opțiune:",
+      "question_text": "Which of the following is not true regarding complexity indicators?",
       "answers": [
         {
           "letter": "a",
@@ -2021,7 +1947,7 @@ const QUIZ_DATA_1 = {
     },
     {
       "question_number": 56,
-      "question_text": "The purpose of randomizing quicksort is: Alegeți o opțiune:",
+      "question_text": "The purpose of randomizing quicksort is:",
       "answers": [
         {
           "letter": "a",
@@ -2058,7 +1984,7 @@ const QUIZ_DATA_1 = {
     },
     {
       "question_number": 57,
-      "question_text": "If BF traversing of a graph does not visit all vertices, then the graph Alegeți o opțiune:",
+      "question_text": "If BF traversing of a graph does not visit all vertices, then the graph",
       "answers": [
         {
           "letter": "a",
@@ -2095,7 +2021,7 @@ const QUIZ_DATA_1 = {
     },
     {
       "question_number": 58,
-      "question_text": "Which of the following algorithms cannot be used to compute a partial tree for a given graph: Alegeți o opțiune:",
+      "question_text": "Which of the following algorithms cannot be used to compute a partial tree for a given graph:",
       "answers": [
         {
           "letter": "a",
@@ -2132,7 +2058,7 @@ const QUIZ_DATA_1 = {
     },
     {
       "question_number": 59,
-      "question_text": "Generalized traversing of a graph can be performed: Alegeți o opțiune:",
+      "question_text": "Generalized traversing of a graph can be performed:",
       "answers": [
         {
           "letter": "a",
@@ -2169,7 +2095,7 @@ const QUIZ_DATA_1 = {
     },
     {
       "question_number": 60,
-      "question_text": "Consider the graph G=(V, E) where V={1,2,3,4,5,6,7,8,9,10} and E={(1,2), (1,4), (1,6), (2,4), (2,5), (3,8), (3,10), (4,5), (4,6), (4,7), (5,7), (7,8), (7,9), (8,9), (9,10)}. If 3 is the initial vertex, which of the following is the correct breadth first traversing order: Alegeți o opțiune:",
+      "question_text": "Consider the graph G=(V, E) where V={1,2,3,4,5,6,7,8,9,10} and E={(1,2), (1,4), (1,6), (2,4), (2,5), (3,8), (3,10), (4,5), (4,6), (4,7), (5,7), (7,8), (7,9), (8,9), (9,10)}. If 3 is the initial vertex, which of the following is the correct breadth first traversing order:",
       "image": "images1/4.png",
       "answers": [
         {
@@ -2207,7 +2133,7 @@ const QUIZ_DATA_1 = {
     },
     {
       "question_number": 61,
-      "question_text": "Consider Prim’s algorithm for building a minimum spanning tree. Selecting an edge to be added to the tree corresponds to this general operation in Greedy method: Alegeți o opțiune:",
+      "question_text": "Consider Prim’s algorithm for building a minimum spanning tree. Selecting an edge to be added to the tree corresponds to this general operation in Greedy method:",
       "answers": [
         {
           "letter": "a",
@@ -2238,7 +2164,7 @@ const QUIZ_DATA_1 = {
     },
     {
       "question_number": 62,
-      "question_text": "Local optimum method (Greedy) finds: Alegeți o opțiune:",
+      "question_text": "Local optimum method (Greedy) finds:",
       "answers": [
         {
           "letter": "a",
@@ -2275,7 +2201,7 @@ const QUIZ_DATA_1 = {
     },
     {
       "question_number": 63,
-      "question_text": "Which operation of backtracking algorithm is represented by this notation Alegeți o opțiune:",
+      "question_text": "Which operation of backtracking algorithm is represented by this notation",
       "answers": [
         {
           "letter": "a",
@@ -2313,7 +2239,7 @@ const QUIZ_DATA_1 = {
     },
     {
       "question_number": 64,
-      "question_text": "For backtracking algorithm, this configuration means: Alegeți o opțiune:",
+      "question_text": "For backtracking algorithm, this configuration means:",
       "answers": [
         {
           "letter": "a",
@@ -2351,7 +2277,7 @@ const QUIZ_DATA_1 = {
     },
     {
       "question_number": 65,
-      "question_text": "The bisection method for solving an equation: Alegeți o opțiune:",
+      "question_text": "The bisection method for solving an equation:",
       "answers": [
         {
           "letter": "a",
@@ -2388,7 +2314,7 @@ const QUIZ_DATA_1 = {
     },
     {
       "question_number": 66,
-      "question_text": "The number of iterations for the local optimum method (Greedy) is: Alegeți o opțiune:",
+      "question_text": "The number of iterations for the local optimum method (Greedy) is:",
       "answers": [
         {
           "letter": "a",
@@ -2425,7 +2351,7 @@ const QUIZ_DATA_1 = {
     },
     {
       "question_number": 67,
-      "question_text": "O(·) defines: Alegeți o opțiune:",
+      "question_text": "O(·) defines:",
       "answers": [
         {
           "letter": "a",
@@ -2462,7 +2388,7 @@ const QUIZ_DATA_1 = {
     },
     {
       "question_number": 68,
-      "question_text": "Consider this function:\nvoid gigel(char a[], int i)\n{ if (a[i])\n{ printf_s(\"%c\", a[i]);\ngigel(a,i+1);\nprintf_s(\"%c\", a[i]);\n}\n}\n\nWhich of the following (ignore the quotes) is the result of calling gigel(“Am trecut!”,1);? Alegeți o opțiune:",
+      "question_text": "Consider this function:\nvoid gigel(char a[], int i)\n{ if (a[i])\n{ printf_s(\"%c\", a[i]);\ngigel(a,i+1);\nprintf_s(\"%c\", a[i]);\n}\n}\n\nWhich of the following (ignore the quotes) is the result of calling gigel(“Am trecut!”,1);?",
       "answers": [
         {
           "letter": "a",
@@ -2499,7 +2425,7 @@ const QUIZ_DATA_1 = {
     },
     {
       "question_number": 69,
-      "question_text": "Recursive implementation is preferable to iterative implementation: Alegeți o opțiune:",
+      "question_text": "Recursive implementation is preferable to iterative implementation:",
       "answers": [
         {
           "letter": "a",
@@ -2609,43 +2535,6 @@ const QUIZ_DATA_1 = {
       "question_number": 71
     },
     {
-      "question_text": "Which of the following factors do not affect the choices made when choosing an implementation to solve a problem:",
-      "answers": [
-        {
-          "letter": "a",
-          "text": "Number of primitive operations",
-          "is_correct": false,
-          "explanation": "Algorithmic running time is determined by operations, input size, and data characteristics. Correct: Hardware."
-        },
-        {
-          "letter": "b",
-          "text": "Data location",
-          "is_correct": false,
-          "explanation": "Algorithmic running time is determined by operations, input size, and data characteristics. Correct: Hardware."
-        },
-        {
-          "letter": "c",
-          "text": "Hardware",
-          "is_correct": true,
-          "explanation": "Correct."
-        },
-        {
-          "letter": "d",
-          "text": "Input size",
-          "is_correct": false,
-          "explanation": "Algorithmic running time is determined by operations, input size, and data characteristics. Correct: Hardware."
-        },
-        {
-          "letter": "e",
-          "text": "Memory used",
-          "is_correct": false,
-          "explanation": "Algorithmic running time is determined by operations, input size, and data characteristics. Correct: Hardware."
-        }
-      ],
-      "correct_answer": "c",
-      "question_number": 72
-    },
-    {
       "question_text": "If BF traversing of a graph does not visit all vertices, then the graph:",
       "answers": [
         {
@@ -2726,34 +2615,34 @@ const QUIZ_DATA_1 = {
           "letter": "a",
           "text": "7, 1, 2, 3, 4, 5, 6, 7",
           "is_correct": false,
-          "explanation": "BFS visits all neighbors at distance d before any vertex at distance d+1. This sequence breaks that level-order rule. Correct: 7, 6, 4, 5, 1, 2, 3, 8."
+          "explanation": "BFS visits all neighbors at distance d before any vertex at distance d+1. This sequence contains a duplicate vertex (7 appears twice) and breaks level-order. Correct: 7, 6, 8, 4, 1, 2, 3, 5."
         },
         {
           "letter": "b",
           "text": "7, 8, 4, 1, 2, 3, 5, 6",
           "is_correct": false,
-          "explanation": "BFS visits all neighbors at distance d before any vertex at distance d+1. This sequence breaks that level-order rule. Correct: 7, 6, 4, 5, 1, 2, 3, 8."
+          "explanation": "BFS visits all neighbors at distance d before any vertex at distance d+1. This sequence visits 4 before 6, but 6 is a direct neighbor of 7 (distance 1) while 4 is at distance 2. Correct: 7, 6, 8, 4, 1, 2, 3, 5."
         },
         {
           "letter": "c",
           "text": "7, 6, 4, 5, 1, 2, 3, 8",
-          "is_correct": true,
-          "explanation": "Correct."
+          "is_correct": false,
+          "explanation": "BFS visits all neighbors at distance d before any vertex at distance d+1. This sequence places 8 at the end, but 8 is a direct neighbor of 7 (distance 1) and must appear before 4, 5, 1, 2, 3 (distance 2 or 3). Correct: 7, 6, 8, 4, 1, 2, 3, 5."
         },
         {
           "letter": "d",
           "text": "7, 8, 6, 1, 2, 3, 4, 5",
           "is_correct": false,
-          "explanation": "BFS visits all neighbors at distance d before any vertex at distance d+1. This sequence breaks that level-order rule. Correct: 7, 6, 4, 5, 1, 2, 3, 8."
+          "explanation": "BFS visits all neighbors at distance d before any vertex at distance d+1. This sequence visits 1, 2, 3 before 4, but 1, 2, 3 are only reachable through 4 (distance 3) while 4 itself is at distance 2. Correct: 7, 6, 8, 4, 1, 2, 3, 5."
         },
         {
           "letter": "e",
           "text": "7, 6, 8, 4, 1, 2, 3, 5",
-          "is_correct": false,
-          "explanation": "BFS visits all neighbors at distance d before any vertex at distance d+1. This sequence breaks that level-order rule. Correct: 7, 6, 4, 5, 1, 2, 3, 8."
+          "is_correct": true,
+          "explanation": "Correct. Starting from 7, BFS explores all neighbors at distance 1 first (6 and 8), then distance 2 (4), then distance 3 (1, 2, 3, 5)."
         }
       ],
-      "correct_answer": "c",
+      "correct_answer": "e",
       "question_number": 75
     },
     {
@@ -3084,7 +2973,7 @@ const QUIZ_DATA_1 = {
           "letter": "e",
           "text": "Return after building a solution",
           "is_correct": false,
-          "explanation": "Correct."
+          "explanation": "This describes returning after finding a valid solution, which is different from the failed-attempt/backtrack operation. Correct: Failed attempt."
         }
       ],
       "correct_answer": "d",
@@ -3163,43 +3052,6 @@ const QUIZ_DATA_1 = {
       ],
       "correct_answer": "c",
       "question_number": 86
-    },
-    {
-      "question_text": "Which of the following algorithms are not recursive: 1. Prim's algorithm, 2. Kruskal's algorithm, 3. Dijkstra's algorithm, 4. Roy-Floyd algorithm, 5. Breadth first traversing algorithm, 6. Depth first traversing algorithm, 7. Euclid's algorithm, 8. Computing the sum of elements in a vector, 9. Bubble sort, 10. Computing the greatest common factor of two numbers?",
-      "answers": [
-        {
-          "letter": "a",
-          "text": "5, 6",
-          "is_correct": false,
-          "explanation": "While those specific algorithms may have iterative forms, the question considers all listed algorithms as having recursive formulations. Correct: All of the above algorithms are recursive."
-        },
-        {
-          "letter": "b",
-          "text": "There are no non-recursive algorithms",
-          "is_correct": false,
-          "explanation": "Many GCD algorithms have well-known iterative forms using a simple while-loop, so non-recursive versions exist. Correct: All of the above algorithms are recursive."
-        },
-        {
-          "letter": "c",
-          "text": "4, 8, 9",
-          "is_correct": false,
-          "explanation": "While those specific algorithms may have iterative forms, the question considers all listed algorithms as having recursive formulations. Correct: All of the above algorithms are recursive."
-        },
-        {
-          "letter": "d",
-          "text": "1, 2, 3",
-          "is_correct": false,
-          "explanation": "While those specific algorithms may have iterative forms, the question considers all listed algorithms as having recursive formulations. Correct: All of the above algorithms are recursive."
-        },
-        {
-          "letter": "e",
-          "text": "All of the above algorithms are recursive",
-          "is_correct": true,
-          "explanation": "Correct."
-        }
-      ],
-      "correct_answer": "e",
-      "question_number": 87
     },
     {
       "question_text": "A supercomputer can solve a problem faster than a personal computer:",

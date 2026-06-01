@@ -1063,34 +1063,34 @@ const QUIZ_DATA_2 = {
           "letter": "a",
           "text": "The formula depends on the problem being solved",
           "is_correct": false,
-          "explanation": "The specific formulas differ, but the pattern is fixed: recursive for non-trivial, start for trivial. Correct: Recursive formula while the problem is trivial, and start formula when the problem becomes non-trivial.."
+          "explanation": "The specific formulas differ, but the pattern is fixed: recursive for non-trivial, start for trivial. Correct: Recursive formula while the problem is not trivial, and start formula when the problem becomes trivial."
         },
         {
           "letter": "b",
           "text": "Recursive formula while the problem is trivial, and start formula when the problem becomes non-trivial.",
-          "is_correct": true,
-          "explanation": "The recursive formula is for non-trivial cases. The trivial case uses the start formula. Correct: Recursive formula while the problem is trivial, and start formula when the problem becomes non-trivial.."
+          "is_correct": false,
+          "explanation": "This reverses the roles. The recursive step handles non-trivial cases; the start (base) formula handles trivial ones. Correct: Recursive formula while the problem is not trivial, and start formula when the problem becomes trivial."
         },
         {
           "letter": "c",
           "text": "None of the other answers are correct",
           "is_correct": false,
-          "explanation": "Recursion uses the recursive formula on non-trivial cases and the start formula on the base case. Correct: Recursive formula while the problem is trivial, and start formula when the problem becomes non-trivial.."
+          "explanation": "Recursion uses the recursive formula on non-trivial cases and the start formula on the base case. Correct: Recursive formula while the problem is not trivial, and start formula when the problem becomes trivial."
         },
         {
           "letter": "d",
           "text": "Recursive formula while the problem is not trivial, and start formula when the problem becomes trivial.",
-          "is_correct": false,
-          "explanation": "Correct."
+          "is_correct": true,
+          "explanation": "Correct. The recursive formula is applied while the problem is not trivial (base case not yet reached), and the start/base formula is used when the problem becomes trivial."
         },
         {
           "letter": "e",
           "text": "Start formula while the problem is not trivial, and recursive formula when the problem becomes trivial.",
           "is_correct": false,
-          "explanation": "That reverses the roles. The recursive step handles non-trivial cases; the start (base) formula handles trivial ones. Correct: Recursive formula while the problem is trivial, and start formula when the problem becomes non-trivial.."
+          "explanation": "That reverses the roles. The recursive step handles non-trivial cases; the start (base) formula handles trivial ones. Correct: Recursive formula while the problem is not trivial, and start formula when the problem becomes trivial."
         }
       ],
-      "correct_answer": "b",
+      "correct_answer": "d",
       "images": [],
       "status": "Correct"
     },
@@ -1486,25 +1486,25 @@ const QUIZ_DATA_2 = {
           "letter": "a",
           "text": "1, 3, 4, 5, 8",
           "is_correct": false,
-          "explanation": "Algorithmic running time is determined by operations, input size, and data characteristics. Correct: 1, 3, 5, 8 2, 5, 7, 8."
+          "explanation": "Algorithmic running time is determined by operations, input size, data location, and hardware. Correct: 1, 3, 5, 8."
         },
         {
           "letter": "b",
           "text": "All of them",
           "is_correct": false,
-          "explanation": "Not all items affect algorithmic running time; many are irrelevant external conditions. Correct: 1, 3, 5, 8 2, 5, 7, 8."
+          "explanation": "Not all items affect algorithmic running time; many are irrelevant external conditions. Correct: 1, 3, 5, 8."
         },
         {
           "letter": "c",
           "text": "2, 4, 6, 7",
           "is_correct": false,
-          "explanation": "Algorithmic running time is determined by operations, input size, and data characteristics. Correct: 1, 3, 5, 8 2, 5, 7, 8."
+          "explanation": "Algorithmic running time is determined by operations, input size, data location, and hardware. Correct: 1, 3, 5, 8."
         },
         {
           "letter": "d",
-          "text": "1, 3, 5, 8 2, 5, 7, 8",
+          "text": "1, 3, 5, 8",
           "is_correct": true,
-          "explanation": "Algorithmic running time is determined by operations, input size, and data characteristics. Correct: 1, 3, 5, 8 2, 5, 7, 8."
+          "explanation": "Algorithmic running time is determined by operations, input size, data location, and hardware. Correct: 1, 3, 5, 8."
         }
       ],
       "correct_answer": "d",
