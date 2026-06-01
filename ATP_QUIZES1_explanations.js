@@ -1330,31 +1330,31 @@ const QUIZ_DATA_1 = {
     },
     {
       "question_number": 37,
-      "question_text": "length of track, 7) weather, 8) hardware?",
+      "question_text": "Which of the following factors impact the running time: 1) number of primitive operations, 2) mouse type (wire/wireless), 3) input size, 4) shoes type (running/hiking), 5) location of data (internal/external), 6) length of track, 7) weather, 8) hardware?",
       "answers": [
         {
           "letter": "a",
           "text": "2, 4, 6, 7",
           "is_correct": false,
-          "explanation": "This answer does not match the established theory for this topic. Correct: 1, 3, 5, 8 2, 5, 7, 8."
+          "explanation": "Algorithmic running time is determined by operations, input size, and data characteristics. Correct: 1, 3, 5, 8 2, 5, 7, 8."
         },
         {
           "letter": "b",
           "text": "All of them",
           "is_correct": false,
-          "explanation": "Not all options are correct; at least one is false or irrelevant. Correct: 1, 3, 5, 8 2, 5, 7, 8."
+          "explanation": "Not all items affect algorithmic running time; many are irrelevant external conditions. Correct: 1, 3, 5, 8 2, 5, 7, 8."
         },
         {
           "letter": "c",
           "text": "1, 3, 5, 8 2, 5, 7, 8",
           "is_correct": true,
-          "explanation": "Correct."
+          "explanation": "Algorithmic running time is determined by operations, input size, and data characteristics. Correct: 1, 3, 5, 8 2, 5, 7, 8."
         },
         {
           "letter": "d",
           "text": "1, 3, 4, 5, 8",
           "is_correct": false,
-          "explanation": "This answer does not match the established theory for this topic. Correct: 1, 3, 5, 8 2, 5, 7, 8."
+          "explanation": "Algorithmic running time is determined by operations, input size, and data characteristics. Correct: 1, 3, 5, 8 2, 5, 7, 8."
         }
       ],
       "correct_answer": "c"
@@ -2170,6 +2170,7 @@ const QUIZ_DATA_1 = {
     {
       "question_number": 60,
       "question_text": "Consider the graph G=(V, E) where V={1,2,3,4,5,6,7,8,9,10} and E={(1,2), (1,4), (1,6), (2,4), (2,5), (3,8), (3,10), (4,5), (4,6), (4,7), (5,7), (7,8), (7,9), (8,9), (9,10)}. If 3 is the initial vertex, which of the following is the correct breadth first traversing order: Alegeți o opțiune:",
+      "image": "images1/4.png",
       "answers": [
         {
           "letter": "a",
@@ -3276,6 +3277,7 @@ const QUIZ_DATA_1 = {
     },
     {
       "question_text": "For backtracking algorithm, this configuration means:",
+      "image": "images1/q1_page33_img1.png",
       "answers": [
         {
           "letter": "a",
